@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="resources/#.ico" type="image/x-icon">
+  <meta name="theme-color" content="#111111">
+  <title>Dictionary web app</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <script defer src="js/main.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <svg class="header__logo-img">
+                        <use xlink:href="images/sprite.svg#logo"></use>
+                    </svg>
+                </div>
+                <div class="header__switcher">
+                    <div class="header__switcher-block">
+                        <label class="header__switcher-label">
+                            <input class="header__switcher-input" type="radio" name="theme" value="light">
+                            <span class="header__switcher-span header__switcher-span--light"></span>
+                        </label>
+                        <label class="header__switcher-label">
+                            <input class="header__switcher-input" type="radio" name="theme" value="dark">
+                            <span class="header__switcher-span header__switcher-span--dark"></span>
+                        </label>
+                    </div>
+                    <svg class="header__switcher-img">
+                        <use xlink:href="images/sprite.svg#sun"></use>
+                    </svg>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="dictionary">
+            <div class="container">
+                <div class="dictionary__search">
+                    <input class="dictionary__search-input" type="text" placeholder="Write a word">
+                    <svg class="dictionary__search-img">
+                        <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                </div>
+
+                <div class="dictionary__wrapper">
+
+                    <div class="dictionary__word">
+                        <div class="dictionary__word-info">
+                            <p class="dictionary__word-search">Write your word</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container"></div>
+    </footer>
+</body>
+
+</html>
